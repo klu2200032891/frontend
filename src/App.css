@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-body {
+  background-color: #48d9b27d;
+  min-height: 100vh;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(9, 5, 1);
+}
+
+.App-link {
+  color: #61dafb67;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+tr:hover {
+  background-color: yellow;
+}
+
+
+/* Custom styles for the table in Show.js */
+.custom-table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.custom-table th {
+  background-color: #3f51b5;
+  color: white;
+  padding: 10px;
+}
+
+.custom-table td {
+  padding: 8px;
+}
+
+.custom-table tr:nth-child(even) {
+  background-color: #c5e1a5; /* Greenish color for even rows */
+}
+
+.custom-table tr:nth-child(odd) {
+  background-color: #ffccbc; /* Peach color for odd rows */
+}
+
+.custom-table tr:hover {
+  background-color: yellow; /* Hover effect */
+}
